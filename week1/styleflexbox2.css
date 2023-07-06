@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.article {
+	background: white;
+	flex: 1;
+}
+
+.nav-left, .nav-right {
+	background: tan;
+	flex: 0 0 10vw;
+}
+
+header, footer {
+	background: skyblue;
+	height: 20vh;
+}

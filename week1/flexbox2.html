@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FLEX-BOX-1</title>
+	
+	<link rel="stylesheet" href="styleflexbox2.css" />
+</head>
+<body>
+	<header>header znajduje się poza divem .container</header>
+	<div class="container">
+		<div class="nav-left">nav-left w środku div .container</div>
+		<div class="article">
+			article w środku div .container
+			<br><br>
+			body ma swój styl w css i .container ma swój styl w css, mimo że i tak każdy z nich ma display-flex; teraz strona wyświetla się poprawnie, ale dlaczego nie można ich stylów połączyć w jeden?
+		</div>
+		<div class="nav-right">nav-right w środku div .container</div>
+	</div>
+	<footer>footer znajduje się poza divem .container</footer>
+</body>
+</html>

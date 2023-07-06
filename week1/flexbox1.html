@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FLEX-BOX-1</title>
+	
+	<link rel="stylesheet" href="styleflexbox1.css" />
+</head>
+<body>
+	<header>header znajduje się poza divem .container</header>
+	<div class="container">
+		<div class="nav-left">nav-left w środku div .container</div>
+		<div class="article">
+			article w środku div .container
+			<br><br>
+			dlaczego navy i article wyświetlają się jako wiersze, skoro mam ustawione flex-direction: column?
+			<br>
+			dlaczego trzeba przewijać stronę, żeby zobaczyć ją w całości, chociaż mam ustawione * {box-sizing: border-box}?
+			<br><br>
+			dlaczego musi być stworzone oddzielne stylowanie dla body i oddzielne dla div container, żeby strona wyświetliła się poprawnie? dlaczego stylowania dla body i container nie można połączyć w jedno?
+		</div>
+		<div class="nav-right">nav-right w środku div .container</div>
+	</div>
+	<footer>footer znajduje się poza divem .container</footer>
+</body>
+</html>
