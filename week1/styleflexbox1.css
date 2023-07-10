@@ -3,11 +3,17 @@
 	text-align: center;
 }
 
-.container {
-	background: lightgrey;
+body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	margin: 0;
+}
+
+.container {
+	background: lightgrey;
+	display: flex;
+	flex-direction: row;
 	margin: 0;
 	flex: 1;
 }

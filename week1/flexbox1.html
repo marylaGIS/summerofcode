@@ -15,10 +15,17 @@
 			article w środku div .container
 			<br><br>
 			dlaczego navy i article wyświetlają się jako wiersze, skoro mam ustawione flex-direction: column?
-			<br>
+			<br>odp. należy ustawić felx-directiona na row (row to wartość domyślna flex), bo te elementy mają się układać wzdłuż osi row, jeden za drugim
+			<br><br>
 			dlaczego trzeba przewijać stronę, żeby zobaczyć ją w całości, chociaż mam ustawione * {box-sizing: border-box}?
+			<br>
+			odp. należy ustawić margin dla body na 0
 			<br><br>
 			dlaczego musi być stworzone oddzielne stylowanie dla body i oddzielne dla div container, żeby strona wyświetliła się poprawnie? dlaczego stylowania dla body i container nie można połączyć w jedno?
+			<br>
+			odp. bo dzieci body - header, container i footer mają się wyświetlać w kolumnie jeden pod drugim, czyli body musi mieć flex-direction: column;
+			<br>za to dzieci .container mają się wyświetlać obok siebie, czyli row
+			<br>.container nie może zajmować całej wysokości ekranu 100vh - to body ma mieć taką wysokość
 		</div>
 		<div class="nav-right">nav-right w środku div .container</div>
 	</div>
