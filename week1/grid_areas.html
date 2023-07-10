@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GRID-AREAS</title>
+	<link rel="stylesheet" href="stylegridareas.css" />
+</head>
+<body>
+	<div class="grid-container">
+		<div class="grid-item item-1">header header header</div>
+		<div class="grid-item item-2">nav left</div>
+		<div class="grid-item item-3">
+			article
+			<br><br>
+			układ korzystający z:
+			<br><br>
+			.grid-container {
+			<br>grid-template-areas: 
+			<br>"header header header"
+			<br>"navl article navr"
+			<br>"footer footer footer";
+			<br>}
+		</div>
+		<div class="grid-item item-4">nav right</div>
+		<div class="grid-item item-5">footer footer footer</div>
+	</div>
+</body>
+</html>
